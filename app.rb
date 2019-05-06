@@ -6,5 +6,8 @@ class App < Sinatra::Base
     set :session_secret, "Cathy"
   end 
   
+  get '/' do
+  end 
+  
   
 end
